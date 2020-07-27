@@ -11,6 +11,12 @@
 
     <title>4Create - Modernizing healthcare software</title>
 
+    <!--Font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -31,6 +37,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+      }
+      .icon {
+        font-size: 30px;
+        line-height: 15px;
+        color: #3cdcfe;
       }
     </style>
   </head>
@@ -97,18 +108,20 @@
 
         <h2>Engineering</h2>
 
-        <div class="row">
+        <div class="row" style="cursor: pointer;">
           <div class="col-md-12 mb-2">
             <div class="card h-100">
               <div
+                id="card-header"
                 class="card-header space-between"
                 data-toggle="collapse"
                 href="#collapseSoftwareEng"
+                aria-expanded="true"
               >
                 <h5 class="card-title mb-0">Software Engineer</h5>
-                <img src="images/top.png" style="width: auto; height: 15px;" />
+                <span class="icon fa fa-minus"></span>
               </div>
-              <div class="card-body collapse" id="collapseSoftwareEng">
+              <div class="card-body collapse show" id="collapseSoftwareEng">
                 <div class="row">
                   <div class="col-md-6 mb-5">
                     <div class="card h-100">
@@ -119,7 +132,26 @@
                       </div>
                       <div class="card-body">
                         <h6 class="mb-4">Mid or senior level</h6>
-                        <h6 class="card-title">Job description</h6>
+                        <h6>About us:</h6>
+                        <p>
+                          We are a Belgrade based team creating products that
+                          evolve traditional approaches and enable
+                          implementation of more sophisticated engineering
+                          processes in the different phases of clinical trials.
+                          Our team consists of experts working on the full life
+                          cycle of product development - from sparking initial
+                          idea to business priority scoping, competition
+                          analysis, user testing, all leading to software design
+                          and development. Our key focus is building a new
+                          enterprise distributed platform and new set of
+                          products, bringing innovation in the domain that will
+                          work as an ecosystem of well connected and integrated
+                          applications and microservices. Together with our
+                          partners we are working on solving problems that will
+                          enable a more efficient, synergetic, fast and secure
+                          clinical trial process.
+                        </p>
+                        <h6 class="card-title">Duties and responsibilities</h6>
                         <ul>
                           <li>Scaling of our distributed platform</li>
                           <li>Build robust and scalable web software</li>
@@ -136,7 +168,9 @@
                             ideas to our technology, algorithms and products
                           </li>
                         </ul>
-                        <h6 class="card-title">Qualifications</h6>
+                        <h6 class="card-title">
+                          Qualifications and competencies
+                        </h6>
                         <ul>
                           <li>Proficient in Ruby, Python, JS (NodeJS)</li>
                           <li>
@@ -163,7 +197,7 @@
                             Be proficient in both spoken and written English
                           </li>
                         </ul>
-                        <h6>We think it is a plus if</h6>
+                        <h6>We think it is a plus if:</h6>
                         <ul>
                           <li>
                             You are interested in expanding your knowledge of
@@ -174,6 +208,21 @@
                           </li>
                           <li>You have international work experience</li>
                         </ul>
+                        <p>
+                          Join our team as we push boundaries and bring
+                          innovation in the field of life sciences. At the core
+                          of our vision is one goal, and that is creating
+                          end-to-end products that enable our clients to focus
+                          on what they do best - discover novel types therapies.
+                          As a strongly focused, distributed team we are driven
+                          by enthusiasm for working on cutting edge solutions
+                          and problems. We are led by problems we must solve to
+                          enable our clients amazing breakthroughs in clinical
+                          trial phases. If you want to join our mission driven
+                          team working on enabling faster improvements in drug
+                          discovery send us your CV at
+                          <u>hr@4create.com</u>
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -184,7 +233,26 @@
                         <h5 class="card-title">CTO</h5>
                       </div>
                       <div class="card-body">
-                        <h6 class="card-title">Job description</h6>
+                        <h6>About us:</h6>
+                        <p>
+                          We are a Belgrade based team creating products that
+                          evolve traditional approaches and enable
+                          implementation of more sophisticated engineering
+                          processes in the different phases of clinical trials.
+                          Our team consists of experts working on the full life
+                          cycle of product development - from sparking initial
+                          idea to business priority scoping, competition
+                          analysis, user testing, all leading to software design
+                          and development. Our key focus is building a new
+                          enterprise distributed platform and new set of
+                          products, bringing innovation in the domain that will
+                          work as an ecosystem of well connected and integrated
+                          applications and microservices. Together with our
+                          partners we are working on solving problems that will
+                          enable a more efficient, synergetic, fast and secure
+                          clinical trial process.
+                        </p>
+                        <h6 class="card-title">Duties and responsibilities</h6>
                         <ul>
                           <li>
                             Develop technical aspects of the company’s strategy
@@ -216,7 +284,9 @@
                             investors
                           </li>
                         </ul>
-                        <h6 class="card-title">Qualifications</h6>
+                        <h6 class="card-title">
+                          Qualifications and competencies
+                        </h6>
                         <ul>
                           <li>3+ years of CTO experience</li>
                           <li>8+ years of software engineering experience</li>
@@ -225,6 +295,21 @@
                           <li>Proficient in JavaScript</li>
                           <li>Excellent people and organizational skills</li>
                         </ul>
+                        <p>
+                          Join our team as we push boundaries and bring
+                          innovation in the field of life sciences. At the core
+                          of our vision is one goal, and that is creating
+                          end-to-end products that enable our clients to focus
+                          on what they do best - discover novel types therapies.
+                          As a strongly focused, distributed team we are driven
+                          by enthusiasm for working on cutting edge solutions
+                          and problems. We are led by problems we must solve to
+                          enable our clients amazing breakthroughs in clinical
+                          trial phases. If you want to join our mission driven
+                          team working on enabling faster improvements in drug
+                          discovery send us your CV at
+                          <u>hr@4create.com</u>
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -235,357 +320,306 @@
           <!-- /.row -->
         </div>
 
-        <div class="row">
+        <div class="row" style="cursor: pointer;">
           <div class="col-md-12 mb-2">
             <div class="card h-100">
               <div
                 class="card-header space-between"
                 data-toggle="collapse"
                 href="#collapseFrontEnd"
+                aria-expanded="false"
               >
-                <h5 class="card-title mb-0">Frontend Engineer</h5>
-                <img src="images/top.png" style="width: auto; height: 15px;" />
+                <h5 class="card-title mb-0">Frontend Engineer - React</h5>
+                <span class="icon fa fa-plus"></span>
               </div>
               <div class="card-body collapse" id="collapseFrontEnd">
-                <div class="row">
-                  <div class="col-md-6 mb-5">
-                    <div class="card h-100">
-                      <div class="card-header">
-                        <h5 class="card-title">
-                          Frontend Engineer - React
-                        </h5>
-                      </div>
-                      <div class="card-body">
-                        <h6 class="mb-4">Mid or senior level</h6>
-                        <h6 class="card-title">Job description</h6>
-                        <ul>
-                          <li>Developing new user-facing features</li>
-                          <li>
-                            Writing clean and reusable code
-                          </li>
-                          <li>
-                            Developing features to enhance the user experience
-                          </li>
-                          <li>
-                            Building reusable code and libraries for future use
-                          </li>
-                          <li>
-                            Ensuring the technical feasibility of UI/UX designs
-                          </li>
-                          <li>
-                            Optimizing application for maximum speed and
-                            scalability
-                          </li>
-                          <li>
-                            Collaborating with other team members and
-                            stakeholders
-                          </li>
-                        </ul>
-                        <h6 class="card-title">Qualifications</h6>
-                        <ul>
-                          <li>Minimum of 2+ years of relevant experience</li>
-                          <li>Proficient in ReactJS, MobX, TypeScript</li>
-                          <li>
-                            Proficient in general OOP and functional programing
-                            patterns
-                          </li>
-                          <li>
-                            Experience with responsive and adaptive design
-                          </li>
-                          <li>Strong communication and interpersonal skills</li>
-                          <li>
-                            Be proficient in both spoken and written English
-                          </li>
-                        </ul>
-                        <h6>We think it is a plus if</h6>
-                        <ul>
-                          <li>
-                            Experience in the backend side of development,
-                            developing REST API’s and GraphQL
-                          </li>
-                          <li>
-                            You are interested in expanding your knowledge of
-                            clinical processes and trials
-                          </li>
-                          <li>
-                            You have background in biotech or related industries
-                          </li>
-                          <li>You have international work experience</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <h6 class="mb-4">Mid or senior level</h6>
+                <h6>About us:</h6>
+                <p>
+                  We are a Belgrade based team creating products that evolve
+                  traditional approaches and enable implementation of more
+                  sophisticated engineering processes in the different phases of
+                  clinical trials. Our team consists of experts working on the
+                  full life cycle of product development - from sparking initial
+                  idea to business priority scoping, competition analysis, user
+                  testing, all leading to software design and development. Our
+                  key focus is building a new enterprise distributed platform
+                  and new set of products, bringing innovation in the domain
+                  that will work as an ecosystem of well connected and
+                  integrated applications and microservices. Together with our
+                  partners we are working on solving problems that will enable a
+                  more efficient, synergetic, fast and secure clinical trial
+                  process.
+                </p>
+                <h6 class="card-title">Duties and responsibilities</h6>
+                <ul>
+                  <li>Developing new user-facing features</li>
+                  <li>
+                    Writing clean and reusable code
+                  </li>
+                  <li>
+                    Developing features to enhance the user experience
+                  </li>
+                  <li>
+                    Building reusable code and libraries for future use
+                  </li>
+                  <li>
+                    Ensuring the technical feasibility of UI/UX designs
+                  </li>
+                  <li>
+                    Optimizing application for maximum speed and scalability
+                  </li>
+                  <li>
+                    Collaborating with other team members and stakeholders
+                  </li>
+                </ul>
+                <h6 class="card-title">
+                  Qualifications and competencies
+                </h6>
+                <ul>
+                  <li>Minimum of 2+ years of relevant experience</li>
+                  <li>Proficient in ReactJS, MobX, TypeScript</li>
+                  <li>
+                    Proficient in general OOP and functional programing patterns
+                  </li>
+                  <li>
+                    Experience with responsive and adaptive design
+                  </li>
+                  <li>Strong communication and interpersonal skills</li>
+                  <li>
+                    Be proficient in both spoken and written English
+                  </li>
+                </ul>
+                <h6>We think it is a plus if:</h6>
+                <ul>
+                  <li>
+                    Experience in the backend side of development, developing
+                    REST API’s and GraphQL
+                  </li>
+                  <li>
+                    You are interested in expanding your knowledge of clinical
+                    processes and trials
+                  </li>
+                  <li>
+                    You have background in biotech or related industries
+                  </li>
+                  <li>You have international work experience</li>
+                </ul>
+                <p>
+                  Join our team as we push boundaries and bring innovation in
+                  the field of life sciences. At the core of our vision is one
+                  goal, and that is creating end-to-end products that enable our
+                  clients to focus on what they do best - discover novel types
+                  therapies. As a strongly focused, distributed team we are
+                  driven by enthusiasm for working on cutting edge solutions and
+                  problems. We are led by problems we must solve to enable our
+                  clients amazing breakthroughs in clinical trial phases. If you
+                  want to join our mission driven team working on enabling
+                  faster improvements in drug discovery send us your CV at
+                  <u>hr@4create.com</u>
+                </p>
               </div>
             </div>
           </div>
           <!-- /.row -->
         </div>
 
-        <div class="row">
-          <div class="col-md-12 mb-2">
-            <div class="card h-100">
-              <div
-                class="card-header space-between"
-                data-toggle="collapse"
-                href="#collapseQA"
-              >
-                <h5 class="card-title mb-0">QA Engineer</h5>
-                <img src="images/top.png" style="width: auto; height: 15px;" />
-              </div>
-              <div class="card-body collapse" id="collapseQA">
-                <div class="row">
-                  <div class="col-md-6 mb-5">
-                    <div class="card h-100">
-                      <div class="card-header">
-                        <h5 class="card-title">
-                          Manual QA engineer
-                        </h5>
-                      </div>
-                      <div class="card-body">
-                        <h6 class="mb-4">Junior, Mid or Senior level</h6>
-                        <h6 class="card-title">Job description</h6>
-                        <ul>
-                          <li>
-                            Set up Test Environment and execute the test cases
-                          </li>
-                          <li>
-                            Conduct/Participate in Review Meetings
-                          </li>
-                          <li>
-                            Analyze and execute Test Cases
-                          </li>
-                          <li>Track Defects</li>
-                          <li>Regression Testing</li>
-                        </ul>
-                        <h6 class="card-title">Qualifications</h6>
-                        <ul>
-                          <li>Junior 1+ years of relevant experience</li>
-                          <li>Mid 2+ years of relevant experience</li>
-                          <li>Senior 3+ years of relevant experience</li>
-                          <li>
-                            Excellent understanding of software development
-                          </li>
-                          <li>Good understanding of cloud based services</li>
-                          <li>
-                            Good understanding of programming languages and
-                            frameworks
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6 mb-5">
-                    <div class="card h-100">
-                      <div class="card-header">
-                        <h5 class="card-title">
-                          QA automation engineer - Cypress.io
-                        </h5>
-                      </div>
-                      <div class="card-body">
-                        <h6 class="mb-4">Junior, Mid or Senior level</h6>
-                        <h6 class="card-title">Job description</h6>
-                        <ul>
-                          <li>
-                            Create detailed, comprehensive and well-structured
-                            test plans and test cases
-                          </li>
-                          <li>
-                            Design, develop and execute automation scripts using
-                            open source tools
-                          </li>
-                          <li>
-                            Identify, record, document thoroughly and track bugs
-                          </li>
-                          <li>
-                            Perform thorough regression testing when bugs are
-                            resolved
-                          </li>
-                          <li>
-                            Monitor debugging process results
-                          </li>
-                          <li>
-                            Track quality assurance metrics, like defect
-                            densities and open defect counts
-                          </li>
-                        </ul>
-                        <h6 class="card-title">Qualifications</h6>
-                        <ul>
-                          <li>Cypress.io and JavaScript experience</li>
-                          <li>Junior 1+ years of relevant experience</li>
-                          <li>Mid 2+ years of relevant experience</li>
-                          <li>
-                            Senior and director 3+ years of relevant experience
-                          </li>
-                          <li>Good programming skills</li>
-                          <li>
-                            Excellent understanding of software development
-                          </li>
-                          <li>Good understanding of cloud based services</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- /.row -->
-        </div>
-
-        <div class="row">
-          <div class="col-md-12 mb-5">
+        <div class="row" style="cursor: pointer;">
+          <div class="col-md-12">
             <div class="card h-100">
               <div
                 class="card-header space-between"
                 data-toggle="collapse"
                 href="#collapseDevOps"
+                aria-expanded="false"
               >
-                <h5 class="card-title mb-0">Dev Ops</h5>
-                <img src="images/top.png" style="width: auto; height: 15px;" />
+                <h5 class="card-title mb-0">Dev Ops Engineer - Serverless</h5>
+                <span class="icon fa fa-plus"></span>
               </div>
               <div class="card-body collapse" id="collapseDevOps">
-                <div class="row">
-                  <div class="col-md-6 mb-5">
-                    <div class="card h-100">
-                      <div class="card-header">
-                        <h5 class="card-title">
-                          Devops Engineer - Serverless
-                        </h5>
-                      </div>
-                      <div class="card-body">
-                        <h6 class="mb-4">Mid or senior level</h6>
-                        <h6 class="card-title">Job description</h6>
-                        <ul>
-                          <li>
-                            Building and setting up development tools and
-                            infrastructure
-                          </li>
-                          <li>
-                            Applying open source technologies and tools to
-                            accomplish specific use cases encountered within the
-                            project
-                          </li>
-                          <li>
-                            Applying coding languages or scripting methodologies
-                            to solve a problem with a custom workflow
-                          </li>
-                          <li>
-                            Responsible to automate and improve development and
-                            release processes
-                          </li>
-                          <li>
-                            Ensuring that systems are safe and secure against
-                            cybersecurity threats
-                          </li>
-                          <li>
-                            Cooperating with software developers to ensure that
-                            development follows established processes and works
-                            as intended
-                          </li>
-                          <li>
-                            Performing root cause analysis for production errors
-                          </li>
-                          <li>
-                            Investigating and resolving technical issues
-                          </li>
-                          <li>
-                            Developing scripts to automate infrastructure setup
-                          </li>
-                          <li>
-                            Designing procedures for system troubleshooting and
-                            maintenance
-                          </li>
-                        </ul>
-                        <h6 class="card-title">Qualifications</h6>
-                        <ul>
-                          <li>
-                            Experience with serverless concepts and tools such
-                            as Serverless Framework or AWS CDK
-                          </li>
-                          <li>
-                            Experience with serverless compute like Lambda and
-                            Fargate
-                          </li>
-                          <li>
-                            Experience with containers (Docker, AWS ECS, AWS
-                            EKS, AWS ECR)
-                          </li>
-                          <li>
-                            Experience with serverless databases - DynamoDB and
-                            Aurora
-                          </li>
-                          <li>
-                            Experience with infrastructure as a code solutions
-                            such as Terraform or CloudFormation
-                          </li>
-                          <li>
-                            Experience in working with distributed systems
-                          </li>
-                          <li>
-                            Experience with scripting languages (Bash, Ruby or
-                            Python)
-                          </li>
-                          <li>Experience with Git</li>
-                          <li>
-                            Familiarity with popular AWS services such as
-                            Cognito, AppSync, EventBridge
-                          </li>
-                          <li>
-                            Familiarity with agile software development in Ruby,
-                            C/C++, Java, JavaScript
-                          </li>
-                          <li>
-                            Excellent problem-solving and troubleshooting skills
-                          </li>
-                          <li>
-                            Process-oriented person with great documentation
-                            skills
-                          </li>
-                          <li>Good time-management skills</li>
-                          <li>Great interpersonal and communication skills</li>
-                          <li>
-                            Be proficient in both spoken and written English
-                          </li>
-                        </ul>
-                        <h6>We think it is a plus if</h6>
-                        <ul>
-                          <li>
-                            You are interested in expanding your knowledge of
-                            clinical processes and trials
-                          </li>
-                          <li>
-                            You have background in biotech or related industries
-                          </li>
-                          <li>You have international work experience</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <h6 class="mb-4">Mid or senior level</h6>
+                <h6>About us:</h6>
+                <p>
+                  We are a Belgrade based team creating products that evolve
+                  traditional approaches and enable implementation of more
+                  sophisticated engineering processes in the different phases of
+                  clinical trials. Our team consists of experts working on the
+                  full life cycle of product development - from sparking initial
+                  idea to business priority scoping, competition analysis, user
+                  testing, all leading to software design and development. Our
+                  key focus is building a new enterprise distributed platform
+                  and new set of products, bringing innovation in the domain
+                  that will work as an ecosystem of well connected and
+                  integrated applications and microservices. Together with our
+                  partners we are working on solving problems that will enable a
+                  more efficient, synergetic, fast and secure clinical trial
+                  process.
+                </p>
+                <h6 class="card-title">Duties and responsibilities</h6>
+                <ul>
+                  <li>
+                    Building and setting up development tools and infrastructure
+                  </li>
+                  <li>
+                    Applying open source technologies and tools to accomplish
+                    specific use cases encountered within the project
+                  </li>
+                  <li>
+                    Applying coding languages or scripting methodologies to
+                    solve a problem with a custom workflow
+                  </li>
+                  <li>
+                    Responsible to automate and improve development and release
+                    processes
+                  </li>
+                  <li>
+                    Ensuring that systems are safe and secure against
+                    cybersecurity threats
+                  </li>
+                  <li>
+                    Cooperating with software developers to ensure that
+                    development follows established processes and works as
+                    intended
+                  </li>
+                  <li>
+                    Performing root cause analysis for production errors
+                  </li>
+                  <li>
+                    Investigating and resolving technical issues
+                  </li>
+                  <li>
+                    Developing scripts to automate infrastructure setup
+                  </li>
+                  <li>
+                    Designing procedures for system troubleshooting and
+                    maintenance
+                  </li>
+                </ul>
+                <h6 class="card-title">
+                  Qualifications and competencies
+                </h6>
+                <ul>
+                  <li>
+                    Experience with serverless concepts and tools such as
+                    Serverless Framework or AWS CDK
+                  </li>
+                  <li>
+                    Experience with serverless compute like Lambda and Fargate
+                  </li>
+                  <li>
+                    Experience with containers (Docker, AWS ECS, AWS EKS, AWS
+                    ECR)
+                  </li>
+                  <li>
+                    Experience with serverless databases - DynamoDB and Aurora
+                  </li>
+                  <li>
+                    Experience with infrastructure as a code solutions such as
+                    Terraform or CloudFormation
+                  </li>
+                  <li>
+                    Experience in working with distributed systems
+                  </li>
+                  <li>
+                    Experience with scripting languages (Bash, Ruby or Python)
+                  </li>
+                  <li>Experience with Git</li>
+                  <li>
+                    Familiarity with popular AWS services such as Cognito,
+                    AppSync, EventBridge
+                  </li>
+                  <li>
+                    Familiarity with agile software development in Ruby, C/C++,
+                    Java, JavaScript
+                  </li>
+                  <li>
+                    Excellent problem-solving and troubleshooting skills
+                  </li>
+                  <li>
+                    Process-oriented person with great documentation skills
+                  </li>
+                  <li>Good time-management skills</li>
+                  <li>Great interpersonal and communication skills</li>
+                  <li>
+                    Be proficient in both spoken and written English
+                  </li>
+                </ul>
+                <h6>We think it is a plus if:</h6>
+                <ul>
+                  <li>
+                    You are interested in expanding your knowledge of clinical
+                    processes and trials
+                  </li>
+                  <li>
+                    You have background in biotech or related industries
+                  </li>
+                  <li>You have international work experience</li>
+                </ul>
+                <p>
+                  Join our team as we push boundaries and bring innovation in
+                  the field of life sciences. At the core of our vision is one
+                  goal, and that is creating end-to-end products that enable our
+                  clients to focus on what they do best - discover novel types
+                  therapies. As a strongly focused, distributed team we are
+                  driven by enthusiasm for working on cutting edge solutions and
+                  problems. We are led by problems we must solve to enable our
+                  clients amazing breakthroughs in clinical trial phases. If you
+                  want to join our mission driven team working on enabling
+                  faster improvements in drug discovery send us your CV at
+                  <u>hr@4create.com</u>
+                </p>
               </div>
             </div>
           </div>
           <!-- /.row -->
         </div>
 
-        <h2>Product development</h2>
+        <h2 class="mt-5">Product development</h2>
 
-        <div class="row">
+        <div class="row" style="cursor: pointer;">
           <div class="col-md-12 mb-2">
             <div class="card h-100">
               <div
                 class="card-header space-between"
                 data-toggle="collapse"
                 href="#collapseProductOwner"
+                aria-expanded="true"
               >
                 <h5 class="card-title mb-0">Product Owner</h5>
-                <img src="images/top.png" style="width: auto; height: 15px;" />
+                <span class="icon fa fa-minus"></span>
               </div>
-              <div class="card-body collapse" id="collapseProductOwner">
+              <div class="card-body collapse show" id="collapseProductOwner">
                 <h6 class="mb-4">Mid or senior level</h6>
-                <h6 class="card-title">Job description</h6>
+                <h6>About us:</h6>
+                <p>
+                  We are a Belgrade based team creating products that evolve
+                  traditional approaches and enable implementation of more
+                  sophisticated engineering processes in the different phases of
+                  clinical trials. Our team consists of experts working on the
+                  full life cycle of product development - from sparking initial
+                  idea to business priority scoping, competition analysis, user
+                  testing, all leading to software design and development. Our
+                  key focus is building a new enterprise distributed platform
+                  and new set of products, bringing innovation in the domain
+                  that will work as an ecosystem of well connected and
+                  integrated applications and microservices. Together with our
+                  partners we are working on solving problems that will enable a
+                  more efficient, synergetic, fast and secure clinical trial
+                  process.
+                </p>
+                <p>
+                  Product Owner is responsible for product planning and
+                  execution throughout the entire Product Lifecycle. From this
+                  role you will be focused on prioritizing product and customer
+                  requirements, defining the product vision, and working closely
+                  with the Project Management, Design and Engineering teams.
+                  Product Owner owns the roadmap and is responsible for defining
+                  and coordinating all the activities required to bring the
+                  product to the market. You will hold a vision of the product
+                  we are developing and communicate it to the team they are
+                  working with.
+                </p>
+                <h6 class="card-title">Duties and responsibilities</h6>
                 <ul>
                   <li>Defining the product strategy and roadmap creation</li>
                   <li>
@@ -627,7 +661,7 @@
                     Generating new ideas and improving customer experience
                   </li>
                 </ul>
-                <h6 class="card-title">Qualifications</h6>
+                <h6 class="card-title">Qualifications and competencies</h6>
                 <ul>
                   <li>
                     At least 2 year experience in product management or as an
@@ -648,7 +682,7 @@
                   </li>
                   <li>Ambitious, self-motivated, and enthusiastic person</li>
                 </ul>
-                <h6>We think it is a plus if</h6>
+                <h6>We think it is a plus if:</h6>
                 <ul>
                   <li>
                     You are interested in expanding your knowledge of clinical
@@ -659,109 +693,57 @@
                   </li>
                   <li>You have international work experience</li>
                 </ul>
+                <p>
+                  Join our team as we push boundaries and bring innovation in
+                  the field of life sciences. At the core of our vision is one
+                  goal, and that is creating end-to-end products that enable our
+                  clients to focus on what they do best - discover novel types
+                  therapies. As a strongly focused, distributed team we are
+                  driven by enthusiasm for working on cutting edge solutions and
+                  problems. We are led by problems we must solve to enable our
+                  clients amazing breakthroughs in clinical trial phases. If you
+                  want to join our mission driven team working on enabling
+                  faster improvements in drug discovery send us your CV at
+                  <u>hr@4create.com</u>
+                </p>
               </div>
             </div>
           </div>
           <!-- /.row -->
         </div>
 
-        <div class="row">
+        <div class="row" style="cursor: pointer;">
           <div class="col-md-12 mb-2">
-            <div class="card h-100">
-              <div
-                class="card-header space-between"
-                data-toggle="collapse"
-                href="#collapseProductDev"
-              >
-                <h5 class="card-title mb-0">
-                  Product developer / Business analyst
-                </h5>
-                <img src="images/top.png" style="width: auto; height: 15px;" />
-              </div>
-              <div class="card-body collapse" id="collapseProductDev">
-                <h6 class="mb-4">Mid or senior level</h6>
-                <h6 class="card-title">Job description</h6>
-                <ul>
-                  <li>Define the scope of the projects</li>
-                  <li>Gather project requirements</li>
-                  <li>Translate requirements to the team</li>
-                  <li>Perform acceptance testing</li>
-                  <li>Work closely with PO on product vision and roadmap</li>
-                  <li>Implement tools and analyze product feedback</li>
-                </ul>
-                <h6 class="card-title">Qualifications</h6>
-                <ul>
-                  <li>Mid 2+ years of relevant experience</li>
-                  <li>Senior 3+ years of relevant experience</li>
-                  <li>Understanding of software development</li>
-                  <li>Understanding of cloud based services</li>
-                  <li>Understanding of programming languages and frameworks</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- /.row -->
-        </div>
-
-        <div class="row">
-          <div class="col-md-12 mb-2">
-            <div class="card h-100">
-              <div
-                class="card-header space-between"
-                data-toggle="collapse"
-                href="#collapseReleaseManager"
-              >
-                <h5 class="card-title mb-0">Release manager</h5>
-                <img src="images/top.png" style="width: auto; height: 15px;" />
-              </div>
-              <div class="card-body collapse" id="collapseReleaseManager">
-                <h6 class="mb-4">Mid or senior level</h6>
-                <h6 class="card-title">Job description</h6>
-                <ul>
-                  <li>
-                    Coordinate and execute software releases across all services
-                  </li>
-                  <li>
-                    Schedule and plan releases in cooperation with product team
-                  </li>
-                  <li>
-                    Work with software validation teams on release formal
-                    validations
-                  </li>
-                  <li>Work with dev teams to ensure proper code deployments</li>
-                  <li>Track and report release activities</li>
-                </ul>
-                <h6 class="card-title">Qualifications</h6>
-                <ul>
-                  <li>Mid 2+ years of relevant experience</li>
-                  <li>Senior 3+ years of relevant experience</li>
-                  <li>Good knowledge of software development</li>
-                  <li>Good knowledge of cloud based services</li>
-                  <li>
-                    Good knowledge of programming languages and frameworks
-                  </li>
-                  <li>AWS experience</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- /.row -->
-        </div>
-
-        <div class="row">
-          <div class="col-md-12 mb-5">
             <div class="card h-100">
               <div
                 class="card-header space-between"
                 data-toggle="collapse"
                 href="#collapseProductDesigner"
+                aria-expanded="false"
               >
                 <h5 class="card-title mb-0">Product designer / UI&UX</h5>
-                <img src="images/top.png" style="width: auto; height: 15px;" />
+                <span class="icon fa fa-plus"></span>
               </div>
               <div class="card-body collapse" id="collapseProductDesigner">
                 <h6 class="mb-4">Mid or senior level</h6>
-                <h6 class="card-title">Job description</h6>
+                <h6>About us:</h6>
+                <p>
+                  We are a Belgrade based team creating products that evolve
+                  traditional approaches and enable implementation of more
+                  sophisticated engineering processes in the different phases of
+                  clinical trials. Our team consists of experts working on the
+                  full life cycle of product development - from sparking initial
+                  idea to business priority scoping, competition analysis, user
+                  testing, all leading to software design and development. Our
+                  key focus is building a new enterprise distributed platform
+                  and new set of products, bringing innovation in the domain
+                  that will work as an ecosystem of well connected and
+                  integrated applications and microservices. Together with our
+                  partners we are working on solving problems that will enable a
+                  more efficient, synergetic, fast and secure clinical trial
+                  process.
+                </p>
+                <h6 class="card-title">Duties and responsibilities</h6>
                 <ul>
                   <li>
                     Analyze how a new product ties in with market needs and
@@ -778,7 +760,7 @@
                     will be working on
                   </li>
                 </ul>
-                <h6 class="card-title">Qualifications</h6>
+                <h6 class="card-title">Qualifications and competencies</h6>
                 <ul>
                   <li>Mid 2+ years of relevant experience</li>
                   <li>Senior 3+ years of relevant experience</li>
@@ -786,99 +768,102 @@
                   <li>Excellent understanding of web software and processes</li>
                   <li>Excellent understanding of modern UI frameworks</li>
                 </ul>
+                <p>
+                  Join our team as we push boundaries and bring innovation in
+                  the field of life sciences. At the core of our vision is one
+                  goal, and that is creating end-to-end products that enable our
+                  clients to focus on what they do best - discover novel types
+                  therapies. As a strongly focused, distributed team we are
+                  driven by enthusiasm for working on cutting edge solutions and
+                  problems. We are led by problems we must solve to enable our
+                  clients amazing breakthroughs in clinical trial phases. If you
+                  want to join our mission driven team working on enabling
+                  faster improvements in drug discovery send us your CV at
+                  <u>hr@4create.com</u>
+                </p>
               </div>
             </div>
           </div>
           <!-- /.row -->
         </div>
-        <!-- /Product development -->
 
-        <h2>Management</h2>
-
-        <div class="row">
+        <div class="row" style="cursor: pointer;">
           <div class="col-md-12 mb-2">
             <div class="card h-100">
               <div
                 class="card-header space-between"
                 data-toggle="collapse"
-                href="#collapseProjectManager"
+                href="#collapseReleaseManager"
+                aria-expanded="false"
               >
-                <h5 class="card-title mb-0">Project manager</h5>
-                <img src="images/top.png" style="width: auto; height: 15px;" />
+                <h5 class="card-title mb-0">Release manager</h5>
+                <span class="icon fa fa-plus"></span>
               </div>
-              <div class="card-body collapse" id="collapseProjectManager">
+              <div class="card-body collapse" id="collapseReleaseManager">
                 <h6 class="mb-4">Mid or senior level</h6>
-                <h6 class="card-title">Job description</h6>
+                <h6>About us:</h6>
+                <p>
+                  We are a Belgrade based team creating products that evolve
+                  traditional approaches and enable implementation of more
+                  sophisticated engineering processes in the different phases of
+                  clinical trials. Our team consists of experts working on the
+                  full life cycle of product development - from sparking initial
+                  idea to business priority scoping, competition analysis, user
+                  testing, all leading to software design and development. Our
+                  key focus is building a new enterprise distributed platform
+                  and new set of products, bringing innovation in the domain
+                  that will work as an ecosystem of well connected and
+                  integrated applications and microservices. Together with our
+                  partners we are working on solving problems that will enable a
+                  more efficient, synergetic, fast and secure clinical trial
+                  process.
+                </p>
+                <h6 class="card-title">Duties and responsibilities</h6>
                 <ul>
-                  <li>Activity and resource planning</li>
-                  <li>Organizing and motivating a project team</li>
-                  <li>Controlling time management</li>
-                  <li>Ensuring customer satisfaction</li>
-                  <li>Analyzing and managing project risk</li>
-                  <li>Monitoring progress</li>
-                  <li>Managing reports and necessary documentation</li>
-                </ul>
-                <h6 class="card-title">Qualifications</h6>
-                <ul>
-                  <li>Proficient in PM tools and processes (eg. Jira)</li>
-                  <li>2+ years of relevant experience for mid level</li>
-                  <li>3+ years of relevant experience for senior level</li>
-                  <li>Scrum and Kanban</li>
-                  <li>Excellent understanding of software development</li>
-                  <li>Good understanding of cloud based services</li>
                   <li>
-                    Good understanding of programming languages and frameworks
+                    Coordinate and execute software releases across all services
                   </li>
+                  <li>
+                    Schedule and plan releases in cooperation with product team
+                  </li>
+                  <li>
+                    Work with software validation teams on release formal
+                    validations
+                  </li>
+                  <li>Work with dev teams to ensure proper code deployments</li>
+                  <li>Track and report release activities</li>
                 </ul>
+                <h6 class="card-title">Qualifications and competencies</h6>
+                <ul>
+                  <li>Mid 2+ years of relevant experience</li>
+                  <li>Senior 3+ years of relevant experience</li>
+                  <li>Good knowledge of software development</li>
+                  <li>Good knowledge of cloud based services</li>
+                  <li>
+                    Good knowledge of programming languages and frameworks
+                  </li>
+                  <li>AWS experience</li>
+                </ul>
+                <p>
+                  Join our team as we push boundaries and bring innovation in
+                  the field of life sciences. At the core of our vision is one
+                  goal, and that is creating end-to-end products that enable our
+                  clients to focus on what they do best - discover novel types
+                  therapies. As a strongly focused, distributed team we are
+                  driven by enthusiasm for working on cutting edge solutions and
+                  problems. We are led by problems we must solve to enable our
+                  clients amazing breakthroughs in clinical trial phases. If you
+                  want to join our mission driven team working on enabling
+                  faster improvements in drug discovery send us your CV at
+                  <u>hr@4create.com</u>
+                </p>
               </div>
             </div>
           </div>
           <!-- /.row -->
         </div>
 
-        <div class="row">
-          <div class="col-md-12 mb-5">
-            <div class="card h-100">
-              <div
-                class="card-header space-between"
-                data-toggle="collapse"
-                href="#collapseBusinessManager"
-              >
-                <h5 class="card-title mb-0">Business Manager</h5>
-                <img src="images/top.png" style="width: auto; height: 15px;" />
-              </div>
-              <div class="card-body collapse" id="collapseBusinessManager">
-                <h6 class="mb-4">Senior level</h6>
-                <h6 class="card-title">Job description</h6>
-                <ul>
-                  <li>Oversee day-to-day operations</li>
-                  <li>Design strategy and set goals for growth</li>
-                  <li>Maintain budgets and optimize expenses</li>
-                  <li>
-                    Ensure employees work productively and develop
-                    professionally
-                  </li>
-                  <li>Oversee recruitment and training of new employees</li>
-                  <li>
-                    Evaluate and improve operations and financial performance
-                  </li>
-                  <li>Direct the employee assessment process</li>
-                  <li>Prepare regular reports for upper management</li>
-                  <li>Ensure staff follows health and safety regulations</li>
-                </ul>
-                <h6 class="card-title">Qualifications</h6>
-                <ul>
-                  <li>Excellent organizational skills</li>
-                  <li>3+ years of relevant experience</li>
-                  <li>Good understanding of web software</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- /.row -->
-        </div>
-
-        <!-- /Management -->
+        <!-- /Product development -->
       </div>
       <!-- /.container -->
     </div>
@@ -900,19 +885,25 @@
       </div>
       <!-- /.container -->
     </footer>
+
     <!--JQuery cdn for bootstrap javascrip-->
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
-    <!--Popper.js cdn for bootstrap javascrip-->
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
       crossorigin="anonymous"
     ></script>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!--Toggle classes +/- icons-->
+    <script type="text/javascript">
+      $(".card-header").click(function () {
+        $(this).find("span").toggleClass("fas fa-plus fas fa-minus");
+      });
+    </script>
   </body>
 </html>
